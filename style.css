@@ -1,4 +1,4 @@
-*{
+﻿*{
 	box-sizing: border-box;
 }
 html,
@@ -702,7 +702,7 @@ body{
 	position: absolute;
 	top: -213px;
 	left: -3px;
-	opacity: 1;
+	opacity: 0;
 }
 .popover-menu-ul{
 	margin: 0;
@@ -734,7 +734,7 @@ body{
 	left: 22px;
 }
 .popover-menu.active{
-	opacity: 0;
+	opacity: 1;
 	transition: opacity 0.5s;
 }
 @media (max-width: 1250px){
